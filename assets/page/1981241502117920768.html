@@ -1,0 +1,539 @@
+<!doctype html>
+<html lang="zh-CN">
+ <head> 
+  <meta charset="utf-8"> 
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"> 
+  <title>SDGs环境保护 - 垃圾分类指南</title> 
+  <script src="../javascript/reload.js"></script> 
+  <script src="./1981241502117920768/resource_5775810000.js"></script> 
+  <link href="./1981241502117920768/all.min.css" rel="stylesheet"> 
+  <script>tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        primary: '#2E7D32',
+        // 环保绿色作为主色调
+        secondary: '#4CAF50',
+        // 辅助绿色
+        accent: '#81C784',
+        // 强调色
+        neutral: '#F5F5F5',
+        // 中性色
+        dark: '#263238' // 深色文本
+      },
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif']
+      }
+    }
+  }
+};</script> 
+  <style type="text/tailwindcss">
+        @layer utilities {
+            .content-auto {
+                content-visibility: auto;
+            }
+            .text-shadow {
+                text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            }
+            .transition-custom {
+                transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            }
+        }
+    </style> 
+ </head> 
+ <body class="bg-gray-50 font-sans text-dark"> 
+  <!-- [MODULE] a1b_页面容器 --> 
+  <div class="min-h-screen flex flex-col"> 
+   <!-- [MODULE] c3d_导航栏 --> 
+   <header class="bg-white shadow-md sticky top-0 z-50 transition-all duration-300" id="navbar"> 
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8"> 
+     <div class="flex justify-between items-center h-16"> 
+      <!-- Logo和标题 --> 
+      <div class="flex items-center"> 
+       <div class="flex-shrink-0 flex items-center"> 
+        <i class="fas fa-recycle text-primary text-2xl mr-2"> </i> 
+        <span class="text-xl font-bold text-primary" contenteditable="false" style="outline: none;"> 環の声 </span> 
+       </div> 
+      </div> 
+      <!-- 桌面导航 --> 
+      <nav class="hidden md:flex space-x-8"> 
+       <a class="text-gray-700 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-custom" href="#home"> 首页 </a> 
+       <a class="text-gray-700 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-custom" href="#categories">分类指南</a> 
+       <a class="text-gray-700 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-custom" href="#resources"> 地区分类指南 </a> 
+       <a class="text-gray-700 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-custom" href="#about"> SDGs </a> 
+       <a class="text-gray-700 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-custom" href="#tips"> 环保小贴士 </a> 
+      </nav> 
+      <!-- 移动端菜单按钮 --> 
+      <div class="md:hidden"> 
+       <button class="text-gray-500 hover:text-primary focus:outline-none" id="mobile-menu-button" type="button"> <i class="fas fa-bars text-xl"> </i> </button> 
+      </div> 
+      <!-- 语言选择文本框 --> 
+      <div class="hidden md:block mr-4"> 
+       <a class="yt-a-defalut-link" target="_top" is-page="true" href="javascript:void(0);" custom-href="w=1920&amp;h=1080&amp;appuuid=1991101715176226816&amp;version=6&amp;pageType=web&amp;uuid=1991122987364909056&amp;appName=领导力" onclick="ytCustomLinkNavigation()" custom-a="true" is-add="true" style="display: inline; padding: 0px; border: 0px; box-shadow: none;"> <span class="text-gray-700 px-3 py-2 rounded-md text-sm font-medium yt-editor" contenteditable="false" style="display: inline-block; outline: none;" data-selectorname="#id-yhx7l"> 中文/日本語 </span> </a> 
+      </div> 
+     </div> 
+     <!-- 移动端导航菜单 --> 
+     <div class="hidden md:hidden pb-3" id="mobile-menu"> 
+      <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3"> 
+       <a class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-primary hover:bg-gray-50" href="#home"> 首页 </a> 
+       <a class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-primary hover:bg-gray-50" href="#categories"> 分类指南 </a> 
+       <a class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-primary hover:bg-gray-50" href="#resources"> 地区分类指南 </a> 
+       <a class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-primary hover:bg-gray-50" href="#about"> SDGs </a> 
+       <a class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-primary hover:bg-gray-50" href="#tips"> 环保小贴士 </a> 
+      </div> 
+     </div> 
+    </div> 
+   </header> 
+   <!-- [/MODULE] c3d_导航栏 -- 包含网站logo、桌面导航和移动端导航菜单，导航项包括首页、关于SDGs、分类指南、环保小贴士和资源下载 --> 
+   <!-- [MODULE] d4e_主内容区域 --> 
+   <main class="flex-grow" data-ytextravalue="extra-gfkzls86s"> 
+    <!-- [MODULE] e5f_首页横幅 --> 
+    <section class="relative bg-gradient-to-r from-primary to-secondary text-white py-20 md:py-28" data-ytindex="0" data-ytoriginindex="0" id="home"> 
+     <div class="absolute inset-0 overflow-hidden"> 
+      <div class="absolute inset-0 bg-black opacity-20"> 
+      </div> 
+      <img alt="环保背景" class="w-full h-full object-cover" src="./1981241502117920768/59b2c84c156f73c746a4695be8cc21e0.png"> 
+     </div> 
+     <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10"> 
+      <div class="max-w-3xl"> 
+       <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight mb-6 text-shadow"> 垃圾分类， <br> 为地球的可持续未来 </h1> 
+       <p class="text-lg md:text-xl mb-8 text-white/90"> 了解联合国可持续发展目标(SDGs)中的环境保护目标，掌握正确的垃圾分类方法，共同参与构建绿色家园。 </p> 
+       <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4"> 
+        <a class="inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium bg-white text-primary hover:bg-gray-100 transition-custom" href="#categories"> 开始学习分类 <i class="fas fa-arrow-right ml-2"> </i> </a> 
+        <a class="inline-flex items-center justify-center px-6 py-3 border border-white rounded-md shadow-sm text-base font-medium text-white bg-transparent hover:bg-white/10 transition-custom" href="#about"> 了解SDGs <i class="fas fa-info-circle ml-2"> </i> </a> 
+       </div> 
+      </div> 
+     </div> 
+    </section> 
+    <!-- [/MODULE] e5f_首页横幅 -- 展示网站主题和主要号召性按钮，包含开始学习分类和了解SDGs两个按钮 --> 
+    <!-- [MODULE] h8i_垃圾分类指南 --> 
+    <section class="py-16 bg-white custom-edit-text-content yt-editor" data-ytindex="2" data-ytoriginindex="2" data-ytparentvalue="extra-gfkzls86s" id="categories" style="opacity: 1; color: rgb(38, 50, 56); font-family: Inter, system-ui, sans-serif; font-size: 16px; font-weight: 400; font-style: normal; line-height: 24px; text-align: start; text-indent: 0px; cursor: move;"> 
+     <div class="container mx-auto px-4 sm:px-6 lg:px-8"> 
+      <div class="text-center mb-16"> 
+       <h2 class="text-3xl font-bold text-gray-900 mb-4" style> 垃圾分类指南 </h2> 
+       <p class="text-gray-600 max-w-2xl mx-auto"> 了解不同类型垃圾的分类方法，正确投放，为环境保护贡献一份力量 </p> 
+       <div class="w-20 h-1 bg-primary mx-auto mt-4"> 
+       </div> 
+      </div> 
+     
+      <!-- 分类卡片 --> 
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8"> 
+       <!-- 可回收物 --> 
+       <div class="category-card" data-category="recyclable"> 
+        <div class="bg-blue-50 rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-custom h-full flex flex-col"> 
+         <div class="h-48 overflow-hidden"> 
+          <img alt="可回收物" class="w-full h-full object-cover transition-transform hover:scale-110 duration-500" src="./1981241502117920768/6cd5491a0cefd0e88d01f8738eaf3799.png"> 
+         </div> 
+         <div class="p-6 flex-grow flex flex-col"> 
+          <div class="flex items-center mb-4"> 
+           <div class="w-10 h-10 rounded-full bg-blue-500 flex items-center justify-center text-white mr-3"> 
+            <i class="fas fa-recycle"> </i> 
+           </div> 
+           <h3 class="text-xl font-semibold text-gray-800"> 可回收物 </h3> 
+          </div> 
+          <p class="text-gray-600 mb-4 flex-grow"> 适宜回收和资源利用的生活废弃物，包括废纸、塑料、玻璃、金属和布料等。 </p> 
+          <a href="https://kyoto-kogomi.net/wp-content/uploads/2024/01/gominowakekatadashikataleafletch.pdf" target="_blank" rel="noopener noreferrer" class="category-detail-btn mt-auto text-blue-600 hover:text-blue-800 font-medium flex items-center">
+  查看详情 <i class="fas fa-arrow-right ml-2"></i>
+</a> 
+         </div> 
+        </div> 
+       </div> 
+       <!-- 厨余垃圾 --> 
+       <div class="category-card" data-category="kitchen"> 
+        <div class="bg-green-50 rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-custom h-full flex flex-col"> 
+         <div class="h-48 overflow-hidden"> 
+          <img alt="厨余垃圾" class="w-full h-full object-cover transition-transform hover:scale-110 duration-500" src="./1981241502117920768/1855bff0fff8924e49ada71ff0cc6aa5.png"> 
+         </div> 
+         <div class="p-6 flex-grow flex flex-col"> 
+          <div class="flex items-center mb-4"> 
+           <div class="w-10 h-10 rounded-full bg-green-500 flex items-center justify-center text-white mr-3"> 
+            <i class="fas fa-apple-alt"> </i> 
+           </div> 
+           <h3 class="text-xl font-semibold text-gray-800"> 厨余垃圾 </h3> 
+          </div> 
+          <p class="text-gray-600 mb-4 flex-grow"> 居民日常生活及食品加工、饮食服务、单位供餐等活动中产生的垃圾，包括丢弃不用的菜叶、剩菜、剩饭等。 </p> 
+          <a href="https://www.youtube.com/watch?v=9PPVSL2w7DE" target="_blank" rel="noopener noreferrer" class="category-detail-btn mt-auto text-green-600 hover:text-green-800 font-medium flex items-center">  查看详情 <i class="fas fa-arrow-right ml-2"></i></a>
+
+         </div> 
+        </div> 
+       </div> 
+       <!-- 有害垃圾 --> 
+       <div class="category-card" data-category="hazardous"> 
+        <div class="bg-red-50 rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-custom h-full flex flex-col"> 
+         <div class="h-48 overflow-hidden"> 
+          <img alt="有害垃圾" class="w-full h-full object-cover transition-transform hover:scale-110 duration-500" src="./1981241502117920768/d05d9c75c77bfa214c87203e89985db9.png"> 
+         </div> 
+         <div class="p-6 flex-grow flex flex-col"> 
+          <div class="flex items-center mb-4"> 
+           <div class="w-10 h-10 rounded-full bg-red-500 flex items-center justify-center text-white mr-3"> 
+            <i class="fas fa-exclamation-triangle"> </i> 
+           </div> 
+           <h3 class="text-xl font-semibold text-gray-800"> 有害垃圾 </h3> 
+          </div> 
+          <p class="text-gray-600 mb-4 flex-grow"> 含有对人体健康有害的重金属、有毒的物质或者对环境造成现实危害或者潜在危害的废弃物。 </p> 
+          <a href="https://www.youtube.com/watch?v=-XE9DTNhEBY" target="_blank" rel="noopener noreferrer" class="category-detail-btn mt-auto text-red-600 hover:text-red-800 font-medium flex items-center">查看详情 <i class="fas fa-arrow-right ml-2"></i></a>
+ 
+         </div> 
+        </div> 
+       </div> 
+       <!-- 其他垃圾 --> 
+       <div class="category-card" data-category="other"> 
+        <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-custom h-full flex flex-col"> 
+         <div class="h-48 overflow-hidden"> 
+          <img alt="其他垃圾" class="w-full h-full object-cover transition-transform hover:scale-110 duration-500" src="./1981241502117920768/5d3665c33dbce381bea82611781998ff.png"> 
+         </div> 
+         <div class="p-6 flex-grow flex flex-col"> 
+          <div class="flex items-center mb-4"> 
+           <div class="w-10 h-10 rounded-full bg-gray-500 flex items-center justify-center text-white mr-3"> 
+            <i class="fas fa-trash"> </i> 
+           </div> 
+           <h3 class="text-xl font-semibold text-gray-800"> 其他垃圾 </h3> 
+          </div> 
+          <p class="text-gray-600 mb-4 flex-grow"> 除可回收物、厨余垃圾、有害垃圾之外的其他生活废弃物，包括砖瓦陶瓷、渣土、卫生间废纸等难以回收的废弃物。 </p> 
+          <a href="https://kyoto-kogomi.net/wp-content/uploads/2025/06/lib3.pdf" target="_blank" rel="noopener noreferrer"  class="category-detail-btn mt-auto text-gray-600 hover:text-gray-800 font-medium flex items-center">  查看详情 <i class="fas fa-arrow-right ml-2"></i></a>
+
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </section> 
+    <!-- [/MODULE] h8i_垃圾分类指南 -- 展示四种主要垃圾分类的卡片，包括可回收物、厨余垃圾、有害垃圾和其他垃圾，每个卡片都有查看详情按钮 --> 
+    <!-- [MODULE] k1l_资源下载 --> 
+    <section class="py-16 bg-white" data-ytindex="5" data-ytoriginindex="5" id="resources"> 
+     <div class="container mx-auto px-4 sm:px-6 lg:px-8" data-ytextravalue="extra-fq0ooca4z"> 
+      <div class="text-center mb-12" data-ytindex="0" data-ytoriginindex="0"> 
+       <h2 class="text-3xl font-bold text-gray-900 mb-4 yt-editor" contenteditable="false" style="outline: none;"> 地区分类指南 </h2> 
+       <p class="text-gray-600 max-w-2xl mx-auto"> 下载垃圾分类相关的资料，帮助你更好地了解和实践垃圾分类 </p> 
+       <div class="w-20 h-1 bg-primary mx-auto mt-4"> 
+       </div> 
+      </div> 
+      <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto" data-ytextravalue="extra-gnfev3y11" data-ytindex="2" data-ytoriginindex="2"> 
+       <div class="bg-neutral rounded-lg p-6 flex items-center yt-editor" data-ytindex="1" data-ytoriginindex="0" data-ytparentvalue="extra-gnfev3y11" style="width: 443px; height: 172px; opacity: 1; padding-top: 24px; color: rgb(38, 50, 56); font-family: Inter, system-ui, sans-serif; font-size: 16px; font-weight: 400; font-style: normal; line-height: 24px; text-align: start; text-indent: 0px;"> 
+        <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary text-2xl mr-6"> 
+         <i class="fas fa-file-pdf"> </i> 
+        </div> 
+        <div class="flex-grow" style> 
+         <h3 class="text-xl font-semibold text-gray-800 mb-2" contenteditable="false" style="outline: currentcolor;"> 大阪 垃圾 分类 </h3> 
+         <a class="inline-flex items-center text-primary hover:text-primary/80 font-medium" custom-href="w=1920&amp;h=1080&amp;appuuid=1991101715176226816&amp;version=3&amp;pageType=web&amp;uuid=1991111600546775040&amp;appName=领导力" href="javascript:void(0);" is-add="false" is-page="true" onclick="ytCustomLinkNavigation()" style="width:;height:;font-size:20px" target="_top"> 点击进入 </a> 
+        </div> 
+       </div> 
+       <div class="bg-neutral rounded-lg p-6 flex items-center custom-edit-text-content yt-editor" data-ytindex="1" data-ytoriginindex="1" data-ytparentvalue="extra-gnfev3y11" style="opacity: 1; color: rgb(38, 50, 56); font-family: Inter, system-ui, sans-serif; font-size: 16px; font-weight: 400; font-style: normal; line-height: 24px; text-align: start; text-indent: 0px;"> 
+        <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary text-2xl mr-6"> 
+         <i class="fas fa-file-image"> </i> 
+        </div> 
+        <div class="flex-grow" style> 
+         <h3 class="text-xl font-semibold text-gray-800 mb-2" contenteditable="false" style="outline: currentcolor;"> 京都 垃圾 分类 </h3> 
+         <a class="inline-flex items-center text-primary hover:text-primary/80 font-medium" custom-href="w=1920&amp;h=1080&amp;appuuid=1991101715176226816&amp;version=3&amp;pageType=web&amp;uuid=1991111600546775040&amp;appName=领导力" href="javascript:void(0);" is-add="false" is-page="true" onclick="ytCustomLinkNavigation()" style="font-size:20px" target="_top"> 点击进入 </a> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </section> 
+    <!-- [/MODULE] k1l_资源下载 -- 提供四种垃圾分类相关资源的下载链接，包括垃圾分类指南手册、宣传海报、PPT课件和记录表 --> 
+    <!-- [MODULE] g7h_关于SDGs --> 
+    <section class="py-16 bg-neutral" data-ytindex="1" data-ytoriginindex="1" id="about"> 
+     <div class="container mx-auto px-4 sm:px-6 lg:px-8"> 
+      <div class="text-center mb-12"> 
+       <h2 class="text-3xl font-bold text-gray-900 mb-4"> 关于联合国可持续发展目标 (SDGs) </h2> 
+       <div class="w-20 h-1 bg-primary mx-auto"> 
+       </div> 
+      </div> 
+      <div class="grid md:grid-cols-2 gap-12 items-center"> 
+       <div> 
+        <img alt="SDGs环境保护目标" class="rounded-lg shadow-lg w-full h-auto" src="./1981241502117920768/dd328a1029e4797e7a9a7fed652ec203.png"> 
+       </div> 
+       <div> 
+        <h3 class="text-2xl font-semibold text-gray-800 mb-4"> 可持续发展目标中的环境保护 </h3> 
+        <p class="text-gray-700 mb-6"> 联合国可持续发展目标(SDGs)是一套全球共同的目标、指标和全球伙伴关系，旨在到2030年解决全球社会、经济和环境问题。 </p> 
+        <p class="text-gray-700 mb-6"> 在17个可持续发展目标中，多个目标直接与环境保护和垃圾分类相关，特别是目标11"可持续城市和社区"和目标12"负责任消费和生产"。 </p> 
+        <div class="space-y-4 mt-8"> 
+         <div class="flex items-start"> 
+          <div class="flex-shrink-0 h-6 w-6 rounded-full bg-primary/20 flex items-center justify-center mt-0.5"> 
+           <i class="fas fa-check text-primary text-sm"> </i> 
+          </div> 
+          <div class="ml-4"> 
+           <h4 class="text-lg font-medium text-gray-900"> 负责任消费和生产 </h4> 
+           <p class="text-gray-600"> 减少、重用和回收资源，实现可持续的消费模式。 </p> 
+          </div> 
+         </div> 
+         <div class="flex items-start"> 
+          <div class="flex-shrink-0 h-6 w-6 rounded-full bg-primary/20 flex items-center justify-center mt-0.5"> 
+           <i class="fas fa-check text-primary text-sm"> </i> 
+          </div> 
+          <div class="ml-4"> 
+           <h4 class="text-lg font-medium text-gray-900"> 可持续城市和社区 </h4> 
+           <p class="text-gray-600"> 创建包容、安全、有弹性和可持续的城市及人类住区。 </p> 
+          </div> 
+         </div> 
+         <div class="flex items-start"> 
+          <div class="flex-shrink-0 h-6 w-6 rounded-full bg-primary/20 flex items-center justify-center mt-0.5"> 
+           <i class="fas fa-check text-primary text-sm"> </i> 
+          </div> 
+          <div class="ml-4"> 
+           <h4 class="text-lg font-medium text-gray-900"> 气候行动 </h4> 
+           <p class="text-gray-600"> 采取紧急行动应对气候变化及其影响。 </p> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </section> 
+    <!-- [/MODULE] g7h_关于SDGs -- 介绍联合国可持续发展目标中与环境保护相关的内容，包括负责任消费和生产、可持续城市和社区、气候行动三个主要目标 --> 
+    <!-- [MODULE] i9j_分类详情模态框 --> 
+    <div class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden" data-ytindex="3" data-ytoriginindex="3" id="category-modal"> 
+     <div class="bg-white rounded-lg shadow-xl max-w-3xl w-full max-h-[90vh] overflow-y-auto"> 
+      <div class="p-6 border-b"> 
+       <div class="flex justify-between items-center"> 
+        <h3 class="text-2xl font-bold text-gray-900" id="modal-title"> 垃圾分类详情 </h3> 
+        <button class="text-gray-500 hover:text-gray-700" id="close-modal"> <i class="fas fa-times text-xl"> </i> </button> 
+       </div> 
+      </div> 
+      <div class="p-6" id="modal-content"> 
+       <!-- 动态内容将通过JavaScript填充 --> 
+      </div> 
+     </div> 
+    </div> 
+    <!-- [/MODULE] i9j_分类详情模态框 -- 点击分类卡片中的查看详情按钮后显示的模态框，包含分类的详细信息 --> 
+    <!-- [MODULE] j0k_环保小贴士 --> 
+    <section class="py-16 bg-neutral" data-ytindex="4" data-ytoriginindex="4" id="tips"> 
+     <div class="container mx-auto px-4 sm:px-6 lg:px-8"> 
+      <div class="text-center mb-12"> 
+       <h2 class="text-3xl font-bold text-gray-900 mb-4"> 环保小贴士 </h2> 
+       <div class="w-20 h-1 bg-primary mx-auto"> 
+       </div> 
+      </div> 
+      <div class="grid md:grid-cols-3 gap-8"> 
+       <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-custom"> 
+        <div class="h-48 overflow-hidden"> 
+         <img alt="减少塑料使用" class="w-full h-full object-cover" src="./1981241502117920768/72c14af5aa11e62de6f0762e53d8ef13.png"> 
+        </div> 
+        <div class="p-6"> 
+         <h3 class="text-xl font-semibold text-gray-800 mb-3"> 减少塑料使用 </h3> 
+         <ul class="space-y-3 text-gray-700"> 
+          <li class="flex items-start"> <i class="fas fa-check-circle text-primary mt-1 mr-2"> </i> <span> 使用可重复使用的水瓶和购物袋 </span> </li> 
+          <li class="flex items-start"> <i class="fas fa-check-circle text-primary mt-1 mr-2"> </i> <span> 拒绝一次性餐具，自带餐具 </span> </li> 
+          <li class="flex items-start"> <i class="fas fa-check-circle text-primary mt-1 mr-2"> </i> <span> 选择无包装或可回收包装的产品 </span> </li> 
+         </ul> 
+        </div> 
+       </div> 
+       <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-custom"> 
+        <div class="h-48 overflow-hidden"> 
+         <img alt="节约能源" class="w-full h-full object-cover" src="./1981241502117920768/6eaff8c2dbe2f0e2fbf3bb0f56865d1e.png"> 
+        </div> 
+        <div class="p-6"> 
+         <h3 class="text-xl font-semibold text-gray-800 mb-3"> 节约能源 </h3> 
+         <ul class="space-y-3 text-gray-700"> 
+          <li class="flex items-start"> <i class="fas fa-check-circle text-primary mt-1 mr-2"> </i> <span> 离开房间时随手关灯和电器 </span> </li> 
+          <li class="flex items-start"> <i class="fas fa-check-circle text-primary mt-1 mr-2"> </i> <span> 使用节能灯具和电器 </span> </li> 
+          <li class="flex items-start"> <i class="fas fa-check-circle text-primary mt-1 mr-2"> </i> <span> 合理使用空调，夏季调高温度，冬季调低温度 </span> </li> 
+         </ul> 
+        </div> 
+       </div> 
+       <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-custom"> 
+        <div class="h-48 overflow-hidden"> 
+         <img alt="节约用水" class="w-full h-full object-cover" src="./1981241502117920768/629b384f0d8e7e07ca571dbd45ec4e59.png"> 
+        </div> 
+        <div class="p-6"> 
+         <h3 class="text-xl font-semibold text-gray-800 mb-3"> 节约用水 </h3> 
+         <ul class="space-y-3 text-gray-700"> 
+          <li class="flex items-start"> <i class="fas fa-check-circle text-primary mt-1 mr-2"> </i> <span> 修理漏水的水龙头和管道 </span> </li> 
+          <li class="flex items-start"> <i class="fas fa-check-circle text-primary mt-1 mr-2"> </i> <span> 使用节水型马桶和淋浴头 </span> </li> 
+          <li class="flex items-start"> <i class="fas fa-check-circle text-primary mt-1 mr-2"> </i> <span> 收集雨水用于浇花和清洁 </span> </li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> 
+      <a class="yt-a-defalut-link" custom-a="true" custom-href href="https://www.env.go.jp/cn/" is-add="true" is-page="false" onclick style="display: inline; padding: 0px; border: 0px; box-shadow: none;" target="_top"> 
+       <div class="mt-12 text-center yt-editor" data-selectorname="#id-le0h6" style="cursor: ns-resize;"> 
+        <button class="inline-flex items-center px-6 py-3 border border-primary text-primary bg-white rounded-md shadow-sm text-base font-medium hover:bg-primary hover:text-white transition-custom" id="more-tips-btn" style> 查看更多环保技巧 <i class="fas fa-leaf ml-2"> </i> </button> 
+       </div> </a> 
+     </div> 
+    </section> 
+    <!-- [/MODULE] j0k_环保小贴士 -- 展示三个环保主题的小贴士卡片，包括减少塑料使用、节约能源和节约用水，底部有查看更多环保技巧按钮 --> 
+   </main> 
+   <!-- [/MODULE] d4e_主内容区域 -- 包含首页横幅、关于SDGs、垃圾分类指南、分类详情模态框、环保小贴士、资源下载和订阅区域等主要内容模块 --> 
+   <!-- [MODULE] m3n_页脚 --> 
+   <footer class="bg-gray-900 text-white py-12"> 
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8"> 
+     <div class="grid md:grid-cols-4 gap-8"> 
+      <div> 
+       <div class="flex items-center mb-4"> 
+        <i class="fas fa-recycle text-primary text-2xl mr-2"> </i> 
+        <span class="text-xl font-bold"> SDGs环保垃圾分类 </span> 
+       </div> 
+       <p class="text-gray-400 mb-4"> 致力于推广垃圾分类知识，助力实现联合国可持续发展目标，共建绿色美好未来。 </p> 
+       <div class="flex space-x-4"> 
+        <a class="text-gray-400 hover:text-white transition-custom" href="javascript:void(0);"> <i class="fab fa-x-twitter text-xl"> </i> </a> 
+        <a class="text-gray-400 hover:text-white transition-custom" href="javascript:void(0);"> <i class="fab fa-instagram text-xl"> </i> </a> 
+        <a class="text-gray-400 hover:text-white transition-custom" href="javascript:void(0);"> <i class="fab fa-twitter text-xl"> </i> </a> 
+       </div> 
+      </div> 
+      <div> 
+       <h3 class="text-lg font-semibold mb-4"> 快速链接 </h3> 
+       <ul class="space-y-2" data-ytextravalue="extra-zjkyiivc8"> 
+        <li data-ytindex="0" data-ytoriginindex="0"> <a class="text-gray-400 hover:text-white transition-custom" href="#home"> 首页 </a> </li> 
+        <li data-ytextravalue="extra-iiy2c1v38" data-ytindex="1" data-ytoriginindex="1" data-ytparentvalue="extra-zjkyiivc8"> <a class="text-gray-400 hover:text-white transition-custom yt-editor" data-ytindex="0" data-ytoriginindex="0" data-ytparentvalue="extra-iiy2c1v38" href="#categories" style="opacity: 1; color: rgb(156, 163, 175); font-family: Inter, system-ui, sans-serif; font-size: 16px; font-weight: 400; font-style: normal; line-height: 23.999998px; text-align: left; text-indent: 0px;"> 分类指南 </a> </li> 
+        <li data-ytindex="2" data-ytoriginindex="2"> <a class="text-gray-400 hover:text-white transition-custom" href="#resources"> 地区分类指南 </a> </li> 
+        <li data-ytindex="3" data-ytoriginindex="3"> <a class="text-gray-400 hover:text-white transition-custom" href="#about"> SDGs </a> </li> 
+        <li data-ytindex="4" data-ytoriginindex="4"> <a class="text-gray-400 hover:text-white transition-custom" href="#tips"> 环保小贴士 </a> </li> 
+       </ul> 
+      </div> 
+      <div> 
+      </div> 
+      <div> 
+       <h3 class="text-lg font-semibold mb-4"> 联系我们 </h3> 
+       <ul class="space-y-2"> 
+       </ul> 
+      </div> 
+     </div> 
+    </div> 
+   </footer> 
+   <!-- [/MODULE] m3n_页脚 -- 包含网站信息、快速链接、相关资源和联系我们等内容 --> 
+  </div> 
+  <!-- [/MODULE] a1b_页面容器 -- 包含网站的所有内容 --> 
+  <!-- [JSMOD] n4o_导航和模态框交互 --> 
+  <script id="nav-modal-script">// 移动端菜单切换
+document.addEventListener('DOMContentLoaded', function () {
+  var mobileMenuButton = document.getElementById('mobile-menu-button');
+  var mobileMenu = document.getElementById('mobile-menu');
+  mobileMenuButton.addEventListener('click', function () {
+    mobileMenu.classList.toggle('hidden');
+  });
+  // 导航栏滚动效果
+  var navbar = document.getElementById('navbar');
+  window.addEventListener('scroll', function () {
+    if (window.scrollY > 50) {
+      navbar.classList.add('bg-white/95', 'backdrop-blur-sm', 'shadow-lg');
+      navbar.classList.remove('bg-white');
+    } else {
+      navbar.classList.remove('bg-white/95', 'backdrop-blur-sm', 'shadow-lg');
+      navbar.classList.add('bg-white');
+    }
+  });
+  // 平滑滚动
+  document.querySelectorAll('a[href^="#"]').forEach(function (anchor) {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      var targetId = this.getAttribute('href');
+      var targetElement = document.querySelector(targetId);
+      if (targetElement) {
+        window.scrollTo({
+          top: targetElement.offsetTop - 80,
+          behavior: 'smooth'
+        });
+        // 关闭移动菜单
+        if (!mobileMenu.classList.contains('hidden')) {
+          mobileMenu.classList.add('hidden');
+        }
+      }
+    });
+  });
+  // 分类标签切换
+  var categoryTabs = document.querySelectorAll('.category-tab');
+  var categoryCards = document.querySelectorAll('.category-card');
+  categoryTabs.forEach(function (tab) {
+    tab.addEventListener('click', function () {
+      // 移除所有标签的active类
+      categoryTabs.forEach(function (t) {
+        t.classList.remove('active', 'bg-primary', 'text-white');
+        t.classList.add('bg-gray-100', 'text-gray-700');
+      });
+      // 添加当前标签的active类
+      this.classList.add('active', 'bg-primary', 'text-white');
+      this.classList.remove('bg-gray-100', 'text-gray-700');
+      var category = this.getAttribute('data-category');
+      // 筛选卡片
+      categoryCards.forEach(function (card) {
+        if (category === 'all' || card.getAttribute('data-category') === category) {
+          card.style.display = 'block';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    });
+  });
+  // 模态框功能
+  var categoryModal = document.getElementById('category-modal');
+  var closeModal = document.getElementById('close-modal');
+  var modalTitle = document.getElementById('modal-title');
+  var modalContent = document.getElementById('modal-content');
+  var categoryDetailBtns = document.querySelectorAll('.category-detail-btn');
+  // 分类详情数据
+  var categoryDetails = {
+    recyclable: {
+      title: "可回收物",
+      color: "blue",
+      content: "<div class=\"mb-6\">\n                            <h4 class=\"text-lg font-semibold text-gray-800 mb-2\">\u5B9A\u4E49</h4>\n                            <p class=\"text-gray-600\">\u53EF\u56DE\u6536\u7269\u662F\u6307\u9002\u5B9C\u56DE\u6536\u548C\u8D44\u6E90\u5229\u7528\u7684\u751F\u6D3B\u5E9F\u5F03\u7269\uFF0C\u4E3B\u8981\u5305\u62EC\u5E9F\u7EB8\u3001\u5851\u6599\u3001\u73BB\u7483\u3001\u91D1\u5C5E\u548C\u5E03\u6599\u4E94\u5927\u7C7B\u3002</p>\n                        </div>\n                        <div class=\"mb-6\">\n                            <h4 class=\"text-lg font-semibold text-gray-800 mb-2\">\u5206\u7C7B</h4>\n                            <ul class=\"space-y-2 text-gray-600\">\n                                <li class=\"flex items-start\">\n                                    <i class=\"fas fa-check-circle text-blue-500 mt-1 mr-2\"></i>\n                                    <span><strong>\u5E9F\u7EB8\uFF1A</strong>\u62A5\u7EB8\u3001\u671F\u520A\u3001\u56FE\u4E66\u3001\u5404\u79CD\u5305\u88C5\u7EB8\u7B49\uFF08\u6CE8\u610F\u7EB8\u5DFE\u548C\u5395\u6240\u7EB8\u7531\u4E8E\u6C34\u6EB6\u6027\u592A\u5F3A\u4E0D\u53EF\u56DE\u6536\uFF09\u3002</span>\n                                </li>\n                                <li class=\"flex items-start\">\n                                    <i class=\"fas fa-check-circle text-blue-500 mt-1 mr-2\"></i>\n                                    <span><strong>\u5851\u6599\uFF1A</strong>\u5404\u79CD\u5851\u6599\u888B\u3001\u5851\u6599\u6CE8\u6CAB\u3001\u5851\u6599\u5305\u88C5\u3001\u4E00\u6B21\u6027\u5851\u6599\u9910\u76D2\u9910\u5177\u3001\u786C\u5851\u6599\u3001\u5851\u6599\u7259\u5237\u3001\u5851\u6599\u676F\u5B50\u3001\u77FF\u6CC9\u6C34\u74F6\u7B49\u3002</span>\n                                </li>\n                                <li class=\"flex items-start\">\n                                    <i class=\"fas fa-check-circle text-blue-500 mt-1 mr-2\"></i>\n                                    <span><strong>\u73BB\u7483\uFF1A</strong>\u5404\u79CD\u73BB\u7483\u74F6\u3001\u788E\u73BB\u7483\u7247\u3001\u955C\u5B50\u3001\u6696\u74F6\u7B49\u3002</span>\n                                </li>\n                                <li class=\"flex items-start\">\n                                    <i class=\"fas fa-check-circle text-blue-500 mt-1 mr-2\"></i>\n                                    <span><strong>\u91D1\u5C5E\u7269\uFF1A</strong>\u6613\u62C9\u7F50\u3001\u94C1\u76AE\u7F50\u5934\u76D2\u3001\u7259\u818F\u76AE\u7B49\u3002</span>\n                                </li>\n                                <li class=\"flex items-start\">\n                                    <i class=\"fas fa-check-circle text-blue-500 mt-1 mr-2\"></i>\n                                    <span><strong>\u5E03\u6599\uFF1A</strong>\u4E3B\u8981\u5305\u62EC\u5E9F\u5F03\u8863\u670D\u3001\u684C\u5E03\u3001\u6D17\u8138\u5DFE\u3001\u4E66\u5305\u3001\u978B\u7B49\u3002</span>\n                                </li>\n                            </ul>\n                        </div>\n                        <div>\n                            <h4 class=\"text-lg font-semibold text-gray-800 mb-2\">\u6295\u653E\u8981\u6C42</h4>\n                            <ul class=\"space-y-2 text-gray-600\">\n                                <li class=\"flex items-start\">\n                                    <i class=\"fas fa-check-circle text-blue-500 mt-1 mr-2\"></i>\n                                    <span>\u5E9F\u7EB8\u5E94\u4FDD\u6301\u5E73\u6574\uFF0C\u7ACB\u4F53\u5305\u88C5\u7269\u5E94\u6E05\u7A7A\u5185\u5BB9\u7269\uFF0C\u6E05\u6D01\u540E\u538B\u6241\u6295\u653E\u3002</span>\n                                </li>\n                                <li class=\"flex items-start\">\n                                    <i class=\"fas fa-check-circle text-blue-500 mt-1 mr-2\"></i>\n                                    <span>\u5E9F\u73BB\u7483\u6709\u5C16\u9510\u8FB9\u89D2\u7684\uFF0C\u5E94\u5305\u88F9\u540E\u6295\u653E\u3002</span>\n                                </li>\n                              
+  <li class=\"flex items-start\">\n                                    <i class=\"fas fa-check-circle text-blue-500 mt-1 mr-2\"></i>\n                                    <span>\u5E9F\u5851\u6599\u74F6\u5E94\u6E05\u9664\u6B8B\u7559\u7269\u5E76\u538B\u6241\u540E\u6295\u653E\u3002</span>\n                                </li>\n                                <li class=\"flex items-start\">\n                                    <i class=\"fas fa-check-circle text-blue-500 mt-1 mr-2\"></i>\n                                    <span>\u5E9F\u91D1\u5C5E\u5E94\u6E05\u7A7A\u5185\u5BB9\u7269\uFF0C\u6E05\u6D01\u540E\u6295\u653E\u3002</span>\n                                </li>\n                            </ul>\n                        </div>"
+    },
+    kitchen: {
+      title: "厨余垃圾",
+      color: "green",
+      content: "<div class=\"mb-6\">\n                            <h4 class=\"text-lg font-semibold text-gray-800 mb-2\">\u5B9A\u4E49</h4>\n                            <p class=\"text-gray-600\">\u53A8\u4F59\u5783\u573E\u662F\u6307\u5C45\u6C11\u65E5\u5E38\u751F\u6D3B\u53CA\u98DF\u54C1\u52A0\u5DE5\u3001\u996E\u98DF\u670D\u52A1\u3001\u5355\u4F4D\u4F9B\u9910\u7B49\u6D3B\u52A8\u4E2D\u4EA7\u751F\u7684\u5783\u573E\uFF0C\u5305\u62EC\u4E22\u5F03\u4E0D\u7528\u7684\u83DC\u53F6\u3001\u5269\u83DC\u3001\u5269\u996D\u3001\u679C\u76AE\u3001\u86CB\u58F3\u3001\u8336\u6E23\u3001\u9AA8\u5934\u7B49\u3002</p>\n                        </div>\n                        <div class=\"mb-6\">\n                            <h4 class=\"text-lg font-semibold text-gray-800 mb-2\">\u5206\u7C7B</h4>\n                            <ul class=\"space-y-2 text-gray-600\">\n                                <li class=\"flex items-start\">\n                                    <i class=\"fas fa-check-circle text-green-500 mt-1 mr-2\"></i>\n                                    <span><strong>\u83DC\u53F6\u83DC\u5E2E\uFF1A</strong>\u5404\u79CD\u83DC\u53F6\u7684\u53F6\u5B50\u3001\u6839\u830E\u3001\u83DC\u5E2E\u7B49\u3002</span>\n                                </li>\n                                <li class=\"flex items-start\">\n                                    <i class=\"fas fa-check-circle text-green-500 mt-1 mr-2\"></i>\n                                    <span><strong>\u679C\u76AE\u679C\u6838\uFF1A</strong>\u5404\u79CD\u6C34\u679C\u7684\u76AE\u3001\u6839\u3001\u7C7D\u7B49\u3002</span>\n                                </li>\n                                <li class=\"flex items-start\">\n                                    <i class=\"fas fa-check-circle text-green-500 mt-1 mr-2\"></i>\n                                    <span><strong>\u5269\u83DC\u5269\u996D\uFF1A</strong>\u5BB6\u5EAD\u3001\u5355\u4F4D\u98DF\u5802\u3001\u9910\u9986\u7B49\u5269\u4F59\u7684\u996D\u83DC\u3002</span>\n                                </li>\n                                <li class=\"flex items-start\">\n                                    <i class=\"fas fa-check-circle text-green-500 mt-1 mr-2\"></i>\n                                    <span><strong>\u9AA8\u5934\u5185\u810F\uFF1A</strong>\u52A8\u7269\u9AA8\u5934\u3001\u5185\u810F\u7B49\u3002</span>\n                                </li>\n                                <li class=\"flex items-start\">\n                                    <i class=\"fas fa-check-circle text-green-500 mt-1 mr-2\"></i>\n                                    <span><strong>\u8336\u53F6\u5496\u5561\u6E23\uFF1A</strong>\u6CE1\u8FC7\u7684\u8336\u53F6\u3001\u5496\u5561\u6E23\u7B49\u3002</span>\n                                </li>\n                            </ul>\n                        </div>\n                        <div>\n                            <h4 class=\"text-lg font-semibold text-gray-800 mb-2\">\u6295\u653E\u8981\u6C42</h4>\n                            <ul class=\"space-y-2 text-gray-600\">\n                                <li class=\"flex items-start\">\n                                    <i class=\"fas fa-check-circle text-green-500 mt-1 mr-2\"></i>\n                                    <span>\u53A8\u4F59\u5783\u573E\u5E94\u4ECE\u4EA7\u751F\u65F6\u5C31\u4E0E\u5176\u4ED6\u54C1\u79CD\u5783\u573E\u5206\u5F00\u6536\u96C6\uFF0C\u6295\u653E\u524D\u5E94\u53BB\u9664\u5305\u88C5\u7269\u3002</span>\n                                </li>\n                                <li class=\"flex items-start\">\n                                    <i class=\"fas fa-check-circle text-green-500 mt-1 mr-2\"></i>\n                                    <span>\u53A8\u4F59\u5783\u573E\u5E94\u6CA5\u5E72\u6C34\u5206\uFF0C\u907F\u514D\u6DF7\u5165\u5E9F\u9910\u5177\u3001\u5851\u6599\u3001\u7EB8\u5DFE\u7B49\u6742\u7269\u3002</span>\n                                </li>\n                                <li class=\"flex items-start\">\n                                    <i class=\"fas fa-check-circle text-green-500 mt-1 mr-2\"></i>\n                                    
+<span>\u6709\u6761\u4EF6\u7684\u5BB6\u5EAD\u53EF\u5C06\u53A8\u4F59\u5783\u573E\u8FDB\u884C\u7C89\u788E\u5904\u7406\uFF0C\u6216\u4F7F\u7528\u4E13\u7528\u7684\u53A8\u4F59\u5783\u573E\u888B\u6536\u96C6\u3002</span>\n                                </li>\n                                <li class=\"flex items-start\">\n                                    <i class=\"fas fa-check-circle text-green-500 mt-1 mr-2\"></i>\n                                    <span>\u5927\u5757\u9AA8\u5934\u3001\u8D1D\u58F3\u7C7B\u7B49\u4E0D\u6613\u964D\u89E3\u7684\u5E94\u4F5C\u4E3A\u5176\u4ED6\u5783\u573E\u6295\u653E\u3002</span>\n                                </li>\n                            </ul>\n                        </div>"
+    },
+    hazardous: {
+      title: "有害垃圾",
+      color: "red",
+      content: "<div class=\"mb-6\">\n                            <h4 class=\"text-lg font-semibold text-gray-800 mb-2\">\u5B9A\u4E49</h4>\n                            <p class=\"text-gray-600\">\u6709\u5BB3\u5783\u573E\u662F\u6307\u542B\u6709\u5BF9\u4EBA\u4F53\u5065\u5EB7\u6709\u5BB3\u7684\u91CD\u91D1\u5C5E\u3001\u6709\u6BD2\u7684\u7269\u8D28\u6216\u8005\u5BF9\u73AF\u5883\u9020\u6210\u73B0\u5B9E\u5371\u5BB3\u6216\u8005\u6F5C\u5728\u5371\u5BB3\u7684\u5E9F\u5F03\u7269\u3002</p>\n                        </div>\n                        <div class=\"mb-6\">\n                            <h4 class=\"text-lg font-semibold text-gray-800 mb-2\">\u5206\u7C7B</h4>\n                            <ul class=\"space-y-2 text-gray-600\">\n                                <li class=\"flex items-start\">\n                                    <i class=\"fas fa-check-circle text-red-500 mt-1 mr-2\"></i>\n                                    <span><strong>\u7535\u6C60\u7C7B\uFF1A</strong>\u5145\u7535\u7535\u6C60\u3001\u7EBD\u6263\u7535\u6C60\u3001\u9502\u7535\u6C60\u7B49\u3002</span>\n                                </li>\n                                <li class=\"flex items-start\">\n                                    <i class=\"fas fa-check-circle text-red-500 mt-1 mr-2\"></i>\n                                    <span><strong>\u706F\u7BA1\u7C7B\uFF1A</strong>\u65E5\u5149\u706F\u7BA1\u3001\u8282\u80FD\u706F\u7BA1\u7B49\u3002</span>\n                                </li>\n                                <li class=\"flex items-start\">\n                                    <i class=\"fas fa-check-circle text-red-500 mt-1 mr-2\"></i>\n                                    <span><strong>\u836F\u54C1\u7C7B\uFF1A</strong>\u8FC7\u671F\u836F\u54C1\u3001\u836F\u54C1\u5305\u88C5\u7B49\u3002</span>\n                                </li>\n                                <li class=\"flex items-start\">\n                                    <i class=\"fas fa-check-circle text-red-500 mt-1 mr-2\"></i>\n                                    <span><strong>\u5316\u5B66\u54C1\u7C7B\uFF1A</strong>\u6740\u866B\u5242\u3001\u9664\u8349\u5242\u3001\u6E05\u6D01\u5242\u7B49\u3002</span>\n                                </li>\n                                <li class=\"flex items-start\">\n                                    <i class=\"fas fa-check-circle text-red-500 mt-1 mr-2\"></i>\n                                    <span><strong>\u5176\u4ED6\uFF1A</strong>\u6C34\u94F6\u6E29\u5EA6\u8BA1\u3001\u8840\u538B\u8BA1\u3001\u5E9F\u6CB9\u6F06\u3001\u5E9F\u80F6\u7247\u7B49\u3002</span>\n                                </li>\n                            </ul>\n                        </div>\n                        <div>\n                            <h4 class=\"text-lg font-semibold text-gray-800 mb-2\">\u6295\u653E\u8981\u6C42</h4>\n                            <ul class=\"space-y-2 text-gray-600\">\n                                <li class=\"flex items-start\">\n                                    <i class=\"fas fa-check-circle text-red-500 mt-1 mr-2\"></i>\n                                    <span>\u6709\u5BB3\u5783\u573E\u6295\u653E\u65F6\u8BF7\u6CE8\u610F\u8F7B\u653E\u3002</span>\n                                </li>\n                                <li class=\"flex items-start\">\n                                    <i class=\"fas fa-check-circle text-red-500 mt-1 mr-2\"></i>\n                                    <span>\u5E9F\u706F\u7BA1\u7B49\u6613\u7834\u635F\u7684\u6709\u5BB3\u5783\u573E\u5E94\u8FDE\u5E26\u5305\u88C5\u6216\u5305\u88F9\u540E\u6295\u653E\u3002</span>\n                                </li>\n                                <li class=\"flex items-start\">\n                                    <i class=\"fas fa-check-circle text-red-500 mt-1 mr-2\"></i>\n                                    <span>\u5E9F\u5F03\u836F\u54C1\u5E94\u5C3D\u91CF\u4FDD\u6301\u539F\u5305\u88C5\uFF0C\u9632\u6B62\u6CC4\u6F0F\u3002</span>\n                                </li>\n                                <li class=\"flex items-start\">\n                                    <i class=\"fas fa-check-circle text-red-500 mt-1 mr-2\"></i>\n                                    <span>\u6740\u866B\u5242\u7B49\u538B\u529B\u7F50\u88C5\u5BB9\u5668\uFF0C\u5E94\u6392\u7A7A\u5185\u5BB9\u7269\u540E\u6295\u653E\u3002</span>\n                                </li>\n                                <li class=\"flex items-start\">\n                                    <i class=\"fas fa-check-circle text-red-500 mt-1 mr-2\"></i>\n                                    <span>\u5728\u516C\u5171\u573A\u6240\u4EA7\u751F\u6709\u5BB3\u5783\u573E\u4E14\u672A\u53D1\u73B0\u5BF9\u5E94\u6536\u96C6\u5BB9\u5668\u65F6\uFF0C\u5E94\u643A\u5E26\u81F3\u6709\u5BB3\u5783\u573E\u6295\u653E\u70B9\u59A5\u5584\u6295\u653E\u3002</span>\n                                </li>\n                            </ul>\n                        </div>"
+    },
+    other: {
+      title: "其他垃圾",
+      color: "gray",
+ content: "<div class=\"mb-6\">\n                            <h4 class=\"text-lg font-semibold text-gray-800 mb-2\">\u5B9A\u4E49</h4>\n                            <p class=\"text-gray-600\">\u5176\u4ED6\u5783\u573E\u662F\u6307\u9664\u53EF\u56DE\u6536\u7269\u3001\u53A8\u4F59\u5783\u573E\u3001\u6709\u5BB3\u5783\u573E\u4E4B\u5916\u7684\u5176\u4ED6\u751F\u6D3B\u5E9F\u5F03\u7269\uFF0C\u5305\u62EC\u7816\u74E6\u9676\u74F7\u3001\u6E23\u571F\u3001\u536B\u751F\u95F4\u5E9F\u7EB8\u3001\u7EB8\u5DFE\u7B49\u96BE\u4EE5\u56DE\u6536\u7684\u5E9F\u5F03\u7269\u3002</p>\n                        </div>\n                        <div class=\"mb-6\">\n                            <h4 class=\"text-lg font-semibold text-gray-800 mb-2\">\u5206\u7C7B</h4>\n                            <ul class=\"space-y-2 text-gray-600\">\n                                <li class=\"flex items-start\">\n                                    <i class=\"fas fa-check-circle text-gray-500 mt-1 mr-2\"></i>\n                                    <span><strong>\u7EB8\u7C7B\uFF1A</strong>\u536B\u751F\u7EB8\u3001\u9910\u5DFE\u7EB8\u3001\u7EB8\u5C3F\u88E4\u3001\u6E7F\u5DFE\u7B49\u3002</span>\n                                </li>\n                                <li class=\"flex items-start\">\n                                    <i class=\"fas fa-check-circle text-gray-500 mt-1 mr-2\"></i>\n                                    <span><strong>\u5851\u6599\u7C7B\uFF1A</strong>\u5851\u6599\u888B\u3001\u4E00\u6B21\u6027\u9910\u5177\u3001\u4FDD\u9C9C\u819C\u3001\u5851\u6599\u73A9\u5177\u7B49\u3002</span>\n                                </li>\n                                <li class=\"flex items-start\">\n                                    <i class=\"fas fa-check-circle text-gray-500 mt-1 mr-2\"></i>\n                                    <span><strong>\u7EBA\u7EC7\u54C1\uFF1A</strong>\u7834\u65E7\u8863\u7269\u3001\u889C\u5B50\u3001\u6BDB\u5DFE\u7B49\u96BE\u4EE5\u56DE\u6536\u7684\u7EBA\u7EC7\u54C1\u3002</span>\n                                </li>\n                                <li class=\"flex items-start\">\n                                    <i class=\"fas fa-check-circle text-gray-500 mt-1 mr-2\"></i>\n                                    <span><strong>\u5176\u4ED6\uFF1A</strong>\u70DF\u8482\u3001\u5C18\u571F\u3001\u9676\u74F7\u788E\u7247\u3001\u82B1\u76C6\u7B49\u3002</span>\n                                </li>\n                            </ul>\n                        </div>\n                        <div>\n                            <h4 class=\"text-lg font-semibold text-gray-800 mb-2\">\u6295\u653E\u8981\u6C42</h4>\n                            <ul class=\"space-y-2 text-gray-600\">\n                                <li class=\"flex items-start\">\n                                    <i class=\"fas fa-check-circle text-gray-500 mt-1 mr-2\"></i>\n                                    <span>\u5176\u4ED6\u5783\u573E\u5E94\u6295\u5165\u6307\u5B9A\u7684\u5176\u4ED6\u5783\u573E\u6536\u96C6\u5BB9\u5668\u3002</span>\n                                </li>\n                                <li class=\"flex items-start\">\n                                    <i class=\"fas fa-check-circle text-gray-500 mt-1 mr-2\"></i>\n                                    <span>\u5BF9\u4E8E\u5927\u4EF6\u5783\u573E\uFF0C\u5E94\u9884\u7EA6\u518D\u751F\u8D44\u6E90\u56DE\u6536\u670D\u52A1\u6216\u6295\u653E\u81F3\u6307\u5B9A\u7684\u5927\u4EF6\u5783\u573E\u6536\u96C6\u70B9\u3002</span>\n                                </li>\n                                <li class=\"flex items-start\">\n                                    <i class=\"fas fa-check-circle text-gray-500 mt-1 mr-2\"></i>\n                                    <span>\u5176\u4ED6\u5783\u573E\u4E2D\u5982\u6709\u53EF\u80FD\u9020\u6210\u73AF\u5883\u6C61\u67D3\u7684\u7269\u8D28\uFF0C\u5E94\u5305\u88F9\u540E\u6295\u653E\u3002</span>\n                                </li>\n                            </ul>\n                        </div>"
+    }
+  };
+  // 打开模态框
+  categoryDetailBtns.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var category = this.getAttribute('data-category');
+      var detail = categoryDetails[category];
+      if (detail) {
+        modalTitle.textContent = detail.title;
+        modalContent.innerHTML = detail.content;
+        categoryModal.classList.remove('hidden');
+        document.body.style.overflow = 'hidden'; // 防止背景滚动
+      }
+    });
+  });
+  // 关闭模态框
+  closeModal.addEventListener('click', function () {
+    categoryModal.classList.add('hidden');
+    document.body.style.overflow = ''; // 恢复背景滚动
+  });
+  // 点击模态框外部关闭
+  categoryModal.addEventListener('click', function (e) {
+    if (e.target === categoryModal) {
+      categoryModal.classList.add('hidden');
+      document.body.style.overflow = '';
+    }
+  });
+  // 更多环保技巧按钮
+  var moreTipsBtn = document.getElementById('more-tips-btn');
+  moreTipsBtn.addEventListener('click', function () {
+    alert('更多环保技巧将在未来更新，敬请期待！');
+  });
+  // 订阅表单提交
+  var subscribeForm = document.querySelector('form');
+  subscribeForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var emailInput = this.querySelector('input[type="email"]');
+    var email = emailInput.value.trim();
+    if (email && validateEmail(email)) {
+      alert('订阅成功！感谢您关注环保资讯。');
+      emailInput.value = '';
+    } else {
+      alert('请输入有效的邮箱地址。');
+    }
+  });
+  // 邮箱验证函数
+  function validateEmail(email) {
+    var re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return re.test(email);
+  }
+});</script> 
+  <!-- [/JSMOD] n4o_导航和模态框交互 -- 处理移动端菜单切换、导航栏滚动效果、平滑滚动、分类标签切换、模态框显示和关闭、环保技巧按钮点击事件以及订阅表单提交等交互功能 -->  
+ </body>
+</html>
